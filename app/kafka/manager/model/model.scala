@@ -47,6 +47,9 @@ case object Kafka_0_10_0_1 extends KafkaVersion {
 case object Kafka_0_10_1_0 extends KafkaVersion {
   override def toString = "0.10.1.0"
 }
+case object Kafka_0_10_1_1 extends KafkaVersion {
+  override def toString = "0.10.1.1"
+}
 
 case object Kafka_0_10_2_0 extends KafkaVersion {
   override def toString = "0.10.2.0"
@@ -64,6 +67,7 @@ object KafkaVersion {
     "0.10.0.0" -> Kafka_0_10_0_0,
     "0.10.0.1" -> Kafka_0_10_0_1,
     "0.10.1.0" -> Kafka_0_10_1_0,
+    "0.10.1.1" -> Kafka_0_10_1_1,
     "0.10.2.0" -> Kafka_0_10_2_0
   )
 
